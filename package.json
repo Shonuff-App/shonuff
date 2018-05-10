@@ -1,0 +1,41 @@
+{
+  "name": "shonuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "react-awesome-popover": "^2.0.3",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shapyro/shonuff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shapyro/shonuff/issues"
+  },
+  "homepage": "https://github.com/shapyro/shonuff#readme"
+}
